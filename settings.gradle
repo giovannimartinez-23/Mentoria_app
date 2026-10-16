@@ -25,3 +25,5 @@ include ':data-adapter'
 project(':data-adapter').projectDir = file('./infrastructure/driven-adapters/data-adapter')
 include ':configuration'
 project(':configuration').projectDir = file('./infrastructure/helpers/configuration')
+include ':rest-consumer'
+project(':rest-consumer').projectDir = file('./infrastructure/driven-adapters/rest-consumer')
